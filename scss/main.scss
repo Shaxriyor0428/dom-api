@@ -11,7 +11,7 @@
   height: 60px;
   display: flex;
   justify-content: center;
-  background: #282a35;
+  background: #28a745;
   z-index: 5;
   .categories {
     position: fixed;
@@ -20,7 +20,7 @@
     border-left: 1px solid rgba(128, 128, 128, 0.645);
     border-right: 1px solid rgba(128, 128, 128, 0.604);
     max-width: 1280px;
-    background: #282a35;
+    background: #28a745;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -28,21 +28,22 @@
     z-index: 100;
     .card__category {
       font-size: 15px;
-      background: #282a35;
+      background: #28a745;
       width: auto;
       height: auto;
-      color: white;
+      color: #FFD700;
       border: none;
       cursor: pointer;
       padding: 10px 10px;
       &:hover {
-        color: deepskyblue;
+        color: #ffffff;
+        background-color: #006400;
       }
     }
     &::-webkit-scrollbar {
       height: 6px;
     }
-    &::-webkit-scrollbar-thumb{
+    &::-webkit-scrollbar-thumb {
       background: rgb(63, 63, 218);
     }
   }
