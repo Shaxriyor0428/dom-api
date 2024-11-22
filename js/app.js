@@ -5,7 +5,7 @@ const seeMore = document.querySelector(".see_more");
 const loading = document.querySelector(".loading");
 
 let offset = 1;
-let perPageCount = 4;
+let perPageCount = 3;
 let categoryName = "";
 let totalProducts = 0;
 let reachedEnd = false;
