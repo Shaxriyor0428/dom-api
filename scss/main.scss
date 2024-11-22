@@ -27,6 +27,7 @@
     overflow-x: auto;
     z-index: 100;
     .card__category {
+      white-space: nowrap;
       font-size: 15px;
       background: #28a745;
       width: auto;
